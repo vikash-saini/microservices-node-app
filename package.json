@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "json-server": "json-server --watch db.json --port 3002"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "express": "^4.18.2",
     "fast-gateway": "^3.4.5",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
   }
 }
